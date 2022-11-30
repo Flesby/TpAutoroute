@@ -159,7 +159,7 @@ int main(int argc, const char* argv[]) {
 		// Add the pictures to the films
 		filmColor.push_back(im.clone());
 		filmGray.push_back(imGray.clone());
-
+		// test de changement
 		// Read video infos
 		nbFrames = cap.get(CAP_PROP_FRAME_COUNT);
 		fps = cap.get(CAP_PROP_FPS);
